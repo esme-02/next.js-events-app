@@ -1,0 +1,156 @@
+html
+  color-scheme: normal
+
+header
+  // height: 300px
+  background: linear-gradient(183deg, #658586, transparent)
+  padding:10px
+  >div
+    width: 100%
+    max-width: 1250px
+    margin: auto
+    padding: 20px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  .title 
+    width: 60%
+    font-size: 40px
+    text-transform: uppercase 
+  .topNav
+    display: flex
+    justify-content: space-between 
+    align-content: center
+    ul 
+      display: flex
+      text-decoration: none
+      list-style: none
+      gap: 16px
+      li
+        font-weight: 600
+        font-size: 25px
+
+
+footer
+  background-color: #333
+  color: #fff
+  padding: 10px
+  text-align: center
+
+
+main 
+  width: 100%
+  max-width: 1250px
+  margin: auto
+  padding: 80px 30px
+  min-height: 1000px
+
+
+.home_body
+  display: flex 
+  flex-direction: column
+  flex-wrap: wrap
+  gap: 50px
+  .image
+    width: 50%
+    img
+      width: 100%
+      height: 400px
+  .card
+    display: flex
+    flex-direction: row
+    gap: 30px
+    justify-content: center
+    align-content: center
+    align-items: center
+    &:nth-child(even)
+      direction: rtl
+    .content
+      width: 50%
+      text-align: center
+
+
+.about_us_list
+  list-style: none
+
+
+.events_page
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  gap: 40px
+  justify-content: center
+  .card
+    position: relative
+    h2
+      position: absolute
+      width: 100%
+      top: 50%
+      text-align: center
+      font-size: 35px
+      color: white
+      text-transform: uppercase
+      text-shadow: 1px 1px 20px black
+    img
+      width: 360px
+      height: 400px
+
+
+.cat_events
+  width: 100%
+  .content
+    display: flex 
+    flex-direction: row
+    flex-wrap: wrap
+    width: 100%
+    justify-content: center
+    gap: 50px
+    .card
+      display: flex 
+      flex-direction: column
+      width: 33%
+      text-align: center
+      margin-bottom: 30px
+      img
+        width: 100%
+        height: 300px
+
+
+.single_event_page
+  text-align: center
+  h1
+    margin: 5%
+    text-align: left
+  img
+    width: 75%
+    height: 50%
+  .email_resgistration
+    margin-top: 10%
+    label
+      display: flex
+      margin-bottom: 15px
+      font-weight: 800
+      font-size: 18px
+      text-transform: uppercase
+      justify-content: center
+    input
+      height: 40px
+      width: 65%
+      margin: 10px
+      box-shadow: none
+      border-radius: 5px
+      border: 1px solid #ccc
+      font-size: 16px
+    button
+      height: 40px
+      border: 1px solid #ccc
+      border-radius: 5px
+      width: 150px
+      font-size: 16px
+      text-transform: uppercase
+      font-weight: 600
+      background-color: #91cbce
+      cursor: pointer
+      &:hover
+        color: #91cbce
+        background: #333
